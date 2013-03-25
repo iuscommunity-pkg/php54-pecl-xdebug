@@ -7,8 +7,8 @@
 %global php_base php54
 
 Name:           %{php_base}-pecl-xdebug
-Version:        2.2.1
-Release:        2.ius%{?dist}
+Version:        2.2.2
+Release:        1.ius%{?dist}
 Summary:        PECL package for debugging PHP scripts
 
 License:        BSD
@@ -129,6 +129,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Mar 25 2013 Ben Harper <ben.harper@rackspace.com> - 2.2.2-1.ius
+- Latest sources from upstream
+
 * Tue Aug 21 2012 Jeffrey Ness <jeffrey.ness@rackspace.com> - 2.2.1-2
 - Rebuilding against php54-5.4.6-2.ius as it is now using bundled PCRE.
 
