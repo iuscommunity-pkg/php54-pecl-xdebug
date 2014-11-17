@@ -7,7 +7,7 @@
 %global php_base php54
 
 Name:           %{php_base}-pecl-xdebug
-Version:        2.2.5
+Version:        2.2.6
 Release:        1.ius%{?dist}
 Summary:        PECL package for debugging PHP scripts
 
@@ -129,6 +129,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon 17 Nov 2014 Carl George <carl.george@rackspace.com> - 2.2.6-1.ius
+- Latest sources from upstream
+
 * Wed Apr 30 2014 Carl George <carl.george@rackspace.com> - 2.2.5-1.ius
 - Latest sources from upstream
 
